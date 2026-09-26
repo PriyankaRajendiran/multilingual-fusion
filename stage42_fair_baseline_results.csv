@@ -1,0 +1,5 @@
+Method,Training_Samples,Testing_Samples,Test_Index_Range,I2T_R1,I2T_R5,I2T_R10,T2I_R1,T2I_R5,T2I_R10
+English XLM-R,80,20,80-99,50.0,80.0,95.0,10.0,35.0,60.0
+Tamil XLM-R,80,20,80-99,30.0,65.0,90.0,5.0,30.0,60.0
+Hindi XLM-R,80,20,80-99,45.0,85.0,90.0,10.0,30.0,60.0
+Multilingual Fusion,80,20,80-99,45.0,95.0,100.0,40.0,90.0,100.0

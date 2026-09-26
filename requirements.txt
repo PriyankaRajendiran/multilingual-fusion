@@ -1,0 +1,16 @@
+# Core
+torch>=2.1
+transformers>=4.38
+sentencepiece
+faiss-cpu
+pandas
+numpy
+Pillow
+scikit-learn
+matplotlib
+
+# Section 18 caption fusion (English -> Tamil, Hindi)
+deep-translator
+
+# Only needed if config.USE_BLIP2 = True (Section 6, MODE 2)
+accelerate

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model/data files
+embeddings/
+models/
+indexes/
+
+# Generated outputs
+outputs/
+
+# Local test image
+new_image.jpg
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+dataset/images/
