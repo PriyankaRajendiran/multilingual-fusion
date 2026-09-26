@@ -23,4 +23,46 @@ new_image.jpg
 Thumbs.db
 .vscode/
 .idea/
+
+# Dataset images
 dataset/images/
+# Old/intermediate research stages
+stage*.py
+stage*.txt
+stage*.csv
+stage*.png
+
+# Old experimental/helper scripts
+check_stage28_keys.py
+complete_multilingual_t2i_unseen_query.py
+create_100_test_queries.py
+create_clean_captions.py
+download_100_images.py
+download_100_images_hf.py
+download_missing_images.py
+google_image_search_tamil.py
+prepare_100_image_list.py
+prepare_dataset.py
+retrieval.py
+retrieval_results.txt
+final_retrieval_results.txt
+fuse_text_embeddings.py
+test_blip2.py
+test_indictrans2.py
+test_translation.py
+test_translation_google.py
+text_to_image_unseen_query.py
+train_multilingual_alignment.py
+train_test_multilingual_alignment.py
+translate_captions.py
+translate_local.py
+translate_nllb.py
+unseen_image_multilingual_retrieval.py
+
+# Local paper/result packages
+FINAL_RESULTS_PACKAGE/
+paper_figures/
+
+# Local test/query files
+all_100_test_queries.csv
+files to upload in github.txt
