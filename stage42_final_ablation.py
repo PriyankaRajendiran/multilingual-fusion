@@ -345,7 +345,7 @@ indic_np = indic_np / (
 
 METHODS = [
     "XLM-R Only",
-    "IndicBERT Only",
+    "IndicBERTv2 Only",
     "Average Fusion",
     "Attention Fusion",
     "Interaction Confidence Fusion"
@@ -468,10 +468,10 @@ for seed in SEEDS:
                 fused = x
 
             # ------------------------------------------------
-            # METHOD 2: INDICBERT ONLY
+            # METHOD 2: INDICBERTv2 ONLY
             # ------------------------------------------------
 
-            elif method == "IndicBERT Only":
+            elif method == "IndicBERTv2 Only":
 
                 fused = i
 
@@ -641,7 +641,7 @@ for seed in SEEDS:
 
                 fused_test = x_test
 
-            elif method == "IndicBERT Only":
+            elif method == "IndicBERTv2 Only":
 
                 fused_test = i_test
 
@@ -774,7 +774,7 @@ for seed in SEEDS:
             )
 
             print(
-                "IndicBERT confidence : {:.4f}".format(
+                "IndicBERTv2 confidence : {:.4f}".format(
                     mean_ci
                 )
             )
@@ -786,7 +786,7 @@ for seed in SEEDS:
             )
 
             print(
-                "IndicBERT effective  : {:.4f}".format(
+                "IndicBERTv2 effective  : {:.4f}".format(
                     mean_wi
                 )
             )
